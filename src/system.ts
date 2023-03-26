@@ -10,7 +10,8 @@ export const defaultSetting = {
   model: "gpt-3.5-turbo" as Model
 }
 
-export const defaultMessage = `Powered by OpenAI Vercel`
+export const defaultMessage = `Powered by OpenAI Vercel
+🧢特 和 🐖🐖 专用`
 
 
 export type Setting = typeof defaultSetting
