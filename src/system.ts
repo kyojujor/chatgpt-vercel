@@ -10,8 +10,13 @@ export const defaultSetting = {
   model: "gpt-3.5-turbo" as Model
 }
 
-export const defaultMessage = `Powered by OpenAI Vercel
-🧢特 和 🐖🐖 专用`
+export const defaultMessage = `
+一个专门给张老师及其小伙伴测试的英语学习AI
+- [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 或者 [[空格]] 搜索 Prompt 预设的指令。
+- 如果口语不想练习了，请选择 \`复盘\`指令 查看需要改进的地方
+- 密码请联系张老师
+- 如果有任何问题或者建议请发送邮件至 \`kyojujor@qq.com\`
+`
 
 
 export type Setting = typeof defaultSetting
